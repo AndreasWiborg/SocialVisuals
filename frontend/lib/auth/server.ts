@@ -1,8 +1,16 @@
 import { NextRequest } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+const getSupabaseAuthConfig = () => {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error('Missing Supabase environment variables for auth')
+  }
+
+  return { supabaseUrl, supabaseAnonKey }
+}
 
 export async function getAuthenticatedUser(request: NextRequest) {
   try {
@@ -16,6 +24,7 @@ export async function getAuthenticatedUser(request: NextRequest) {
     const token = authHeader.substring(7) // Remove 'Bearer ' prefix
     
     // Create Supabase client with the token
+    const { supabaseUrl, supabaseAnonKey } = getSupabaseAuthConfig()
     const supabase = createClient(supabaseUrl, supabaseAnonKey)
     
     // Set the auth token
