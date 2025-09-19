@@ -9,6 +9,7 @@ node_modules
 text-overlay/Text-Overlay-API.log
 frontend/frontend.log
 frontend/frontend.server.log
-runs
+text-overlay/runs/
+!text-overlay/dist/runs/
 __stage_tmp__
 *.DS_Store
