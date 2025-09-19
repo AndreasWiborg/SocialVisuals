@@ -62,6 +62,10 @@ export async function finalizeRun(dir) {
     await fs.writeFile(p, JSON.stringify(data, null, 2), 'utf-8');
 }
 EOF
+
+# Fix CORS configuration to allow production frontend
+RUN sed -i 's/return cb(null, false);/if (orig.includes("onrender.com") || orig.includes("render.com")) return cb(null, true); return cb(null, false);/' ./dist/api.js
+
 COPY text-overlay/fonts ./fonts
 COPY text-overlay/scripts ./scripts
 COPY text-overlay/bundles*.json ./
