@@ -1,0 +1,99 @@
+{
+  "brands": [
+    {
+      "id": "habity",
+      "name": "Habity",
+      "url": "https://apps.apple.com/by/app/habity-habit-tracking/id6747450885",
+      "colors": {
+        "brand_primary": "#302050",
+        "brand_secondary": "#303050",
+        "accent_1": "#403050",
+        "accent_2": "#cdaa98"
+      },
+      "logo": null,
+      "products": [
+        {
+          "id": "default",
+          "name": "Habity Demo",
+          "image": "/demo/habity/products/default.png",
+          "variants": [
+            "/demo/habity/results/default/1.png",
+            "/demo/habity/results/default/2.png",
+            "/demo/habity/results/default/3.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bloom",
+      "name": "Bloom",
+      "url": "https://apps.apple.com/by/app/bloom-mood-tracker-journal/id6747457137",
+      "colors": {
+        "brand_primary": "#f0f0e0",
+        "brand_secondary": "#a8cf9b",
+        "accent_1": "#2929a3",
+        "accent_2": "#376262"
+      },
+      "logo": null,
+      "products": [
+        {
+          "id": "default",
+          "name": "Bloom Demo",
+          "image": "/demo/bloom/products/default.png",
+          "variants": [
+            "/demo/bloom/results/default/1.png",
+            "/demo/bloom/results/default/2.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "url": "https://www.garrya.com/en/destinations/mu-cang-chai/dining",
+      "colors": {
+        "brand_primary": "#111111",
+        "brand_secondary": "#666666",
+        "accent_1": "#7C3AED",
+        "accent_2": "#3B82F6"
+      },
+      "logo": null,
+      "products": [
+        {
+          "id": "default",
+          "name": "Restaurant Demo",
+          "image": "/demo/restaurant/products/default.png",
+          "variants": [
+            "/demo/restaurant/results/default/1.png",
+            "/demo/restaurant/results/default/2.png",
+            "/demo/restaurant/results/default/3.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garrya",
+      "name": "Garrya",
+      "url": "https://www.garrya.com/en",
+      "colors": {
+        "brand_primary": "#111111",
+        "brand_secondary": "#666666",
+        "accent_1": "#7C3AED",
+        "accent_2": "#3B82F6"
+      },
+      "logo": null,
+      "products": [
+        {
+          "id": "default",
+          "name": "Garrya Demo",
+          "image": "/demo/garrya/products/default.png",
+          "variants": [
+            "/demo/garrya/results/default/1.png",
+            "/demo/garrya/results/default/2.png",
+            "/demo/garrya/results/default/3.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

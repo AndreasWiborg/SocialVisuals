@@ -1,0 +1,13 @@
+# Frontend (Next.js) environment
+# Copy to env/.frontend.prod (or similar) and provide production values before deploying.
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=replace-with-anon-key
+NEXT_PUBLIC_API_BASE=http://text-overlay:3000
+
+# Stripe placeholders for future billing integration
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_replace
+NEXT_PUBLIC_STRIPE_PRICE_ID=price_replace
+
+# Optional UX toggles
+NEXT_PUBLIC_APP_ENV=production

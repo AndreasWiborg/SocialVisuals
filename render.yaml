@@ -1,0 +1,51 @@
+services:
+  - type: web
+    name: moodtracking-text-overlay
+    env: docker
+    dockerfilePath: text-overlay/Dockerfile
+    dockerContext: .
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_OUTPUT_BUCKET
+        value: user-content
+      - key: SUPABASE_OUTPUT_PREFIX
+        value: generated
+      - key: SUPABASE_SIGN_EXPIRES
+        value: "604800"
+      - key: LLM_PROVIDER
+        value: openai
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ALLOWED_BG_DIRS
+        value: "../AdCreator2/backend/output,./"
+      - key: OVERLAY_CONCURRENCY
+        value: "2"
+      - key: COMPOSE_CONCURRENCY
+        value: "3"
+  - type: web
+    name: moodtracking-frontend
+    env: docker
+    dockerfilePath: frontend/Dockerfile
+    dockerContext: .
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: PUBLIC_SVGS_MANIFEST_URL
+        sync: false
+      - key: PUBLIC_ASSETS_BASE
+        sync: false

@@ -1,0 +1,8 @@
+[
+  {"id":"b1","angle":"QUESTION","theme_id":"self-writing-ads","roles":{"headline":"What if your ads wrote themselves?","body":"Automate with templates and brand checks.","cta":"Get started"}},
+  {"id":"b2","angle":"PROMISE","theme_id":"on-brand-design","roles":{"headline":"Design on-brand ads every time","body":"Create with smart fitting and components.","cta":"Try it now"}},
+  {"id":"b3","angle":"PROBLEM_SOLUTION","theme_id":"less-approvals","roles":{"headline":"Too many approvals? Ship clean layouts with guardrails.","body":"Refine with workflows and brand checks.","cta":"Learn more"}},
+  {"id":"b4","angle":"HOW_TO","theme_id":"how-to-launch","roles":{"headline":"How to launch polished creatives without rewrites","body":"Scale with templates and automations.","cta":"Get started"}},
+  {"id":"b5","angle":"PROOF","theme_id":"ship-days","roles":{"headline":"Made for ship days, not slide decks","body":"Build with blueprints and components.","cta":"Learn more"}},
+  {"id":"b6","angle":"PATTERN_BREAK","theme_id":"stop-babysitting","roles":{"headline":"Stop layout babysitting. Start clean layouts.","body":"Test with guardrails and workflows.","cta":"Try it now"}}
+]

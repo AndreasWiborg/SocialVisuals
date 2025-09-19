@@ -1,0 +1,69 @@
+{
+  "outPath": "./out_llm_1757340004384.png",
+  "meta": {
+    "outPath": "./out_llm_1757340004384.png",
+    "headlineMeta": {
+      "outPath": "./out_llm_1757340004384.png",
+      "usedColor": "#FFFFFF",
+      "contrastRatio": 15.90998443177303,
+      "appliedScrim": false,
+      "scrimType": "none",
+      "strokeApplied": false,
+      "lineHeightPx": 91.80000000000001
+    },
+    "bodies": 2,
+    "cta": true
+  },
+  "topBundle": {
+    "bundleId": "b7",
+    "texts": {
+      "headline": [
+        "Want ads ready in no time?"
+      ],
+      "body": [
+        "Efficient design tools await.",
+        "Bring your vision to life."
+      ],
+      "cta": [
+        "Try it now"
+      ]
+    },
+    "fits": {
+      "headline": [
+        {
+          "font_px": 85,
+          "lines": 3,
+          "widthLimited": false
+        }
+      ],
+      "body": [
+        {
+          "font_px": 45,
+          "lines": 2,
+          "widthLimited": false
+        },
+        {
+          "font_px": 35,
+          "lines": 1,
+          "widthLimited": false
+        }
+      ],
+      "cta": [
+        {
+          "font_px": 44,
+          "lines": 1,
+          "widthLimited": false
+        }
+      ]
+    },
+    "ok": true,
+    "score": 1.9214285714285715
+  },
+  "policy": [
+    {
+      "bundleId": "b7",
+      "coherence": 0,
+      "ctaOk": true
+    }
+  ]
+}

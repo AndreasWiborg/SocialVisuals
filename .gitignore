@@ -1,0 +1,31 @@
+# Node modules
+**/node_modules/
+
+# Next.js build output  
+**/.next/
+
+# Logs
+*.log
+
+# Environment files
+.env.local
+
+# OS files
+.DS_Store
+
+# Build artifacts
+*.tsbuildinfo
+
+# Exclude specific large directories
+AdCreator/
+AdCreator2/
+backups/
+__stage_tmp__/
+recovered_from_cursor/
+recovered_from_next/
+runs/
+
+# Exclude specific subdirectories in text-overlay
+text-overlay/runs/
+text-overlay/mappings/
+text-overlay/uploads/

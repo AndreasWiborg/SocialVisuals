@@ -1,0 +1,271 @@
+{
+  "n": 18,
+  "k": 3,
+  "jobs": [
+    {
+      "templateId": "2circles-info",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/2Circles_Info-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "2mockup-bigheadline",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/2MockUp_BigHeadline-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "2xiphone-hsb",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/2xiPhone_HSB-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "3steps-iphone",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/3Steps_iPhone-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "3-product-feature-images-hs",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/3_Product_Feature_Images_HS-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "3xiphone-h",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/3xiPhone_H-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "3xiphone-hs-cta",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/3xiphone_HS_CTA-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "5features-benefits",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/5Features_Benefits-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "about-us",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/About_Us-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-2",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_2-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-3",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_3-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-4",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_4-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-5",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_5-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-6",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_6-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-7",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_7-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "classic-canva-template-backup",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Classic_Canva_Template_backup-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "clean-mockup",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Clean_MockUp-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "clean-mock-up-template",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Clean_Mock_up_Template-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "contact-info-iphonemockup",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Contact_Info_iPhoneMockUp-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "creative-cta-contact-template",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Creative_CTA_Contact_Template-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "did-you-know-",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Did_You_Know_-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "did-you-know--2",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Did_You_Know__2-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "fb-iphonemockup-statement",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/FB_iPhoneMockUP_Statement-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "framemockup-classic-canva",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/FrameMockUp_Classic_Canva-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "headline-4benefits",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Headline_4Benefits-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "images-1wordbenefits",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Images_1wordBenefits-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "linkedin-banner",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/LinkedIn_Banner-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "meme1",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Meme1-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "meme2",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Meme2-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "meme3",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Meme3-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "meme4",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Meme4-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "mockup-+-3images",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/MockUp_+_3Images-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "product-remover-1",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Product_Remover_1-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "product-remover-2",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Product_Remover_2-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "product-remover-3",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Product_Remover_3-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "reminder-1",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Reminder_1-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "reminder-transparent-backgroundimage",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Reminder_Transparent_BackgroundImage-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "review-background-image",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Review_Background_Image-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "review-screenshot",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Review_Screenshot-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "simple-benefit-noimage",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Simple_Benefit_NoImage-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "statement-cta-bigimage",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Statement_CTA_BigImage-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "text+cta",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Text+CTA-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "textontop-2imagebutton",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/TextOnTop_2ImageButton-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "valueinfo",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/ValueInfo-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "value-info-background-image",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Value_Info_Background_Image-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "value-template",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Value_Template-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "website-iphone",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/Website_iPhone-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "iphone-statement-cta-earthtones",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/iPhone_Statement_CTA_EarthTones-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "test-template-1",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/test-template-1-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "test-template-2",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/test-template-2-pre.png",
+      "url": "https://example.com"
+    },
+    {
+      "templateId": "test-template-3",
+      "bgPath": "/Users/erikbelt/Desktop/Mood Tracking App/AdCreator2/backend/output/base-images-test/test-template-3-pre.png",
+      "url": "https://example.com"
+    }
+  ]
+}

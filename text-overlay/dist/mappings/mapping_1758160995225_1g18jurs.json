@@ -1,0 +1,21 @@
+{
+  "id": "mapping_1758160995225_1g18jurs",
+  "mapping": {
+    "images": {
+      "logo": null,
+      "products": [],
+      "screenshots": [
+        "/file?p=%2FUsers%2Ferikbelt%2FDesktop%2FMood%20Tracking%20App%2Ftext-overlay%2Fdist%2Fuploads%2F1758160989148-osqf9a%2F4c5aeb4b-8379-48ca-ad0a-a7e2b9c19a10.jpg",
+        "/file?p=%2FUsers%2Ferikbelt%2FDesktop%2FMood%20Tracking%20App%2Ftext-overlay%2Fdist%2Fuploads%2F1758160989148-osqf9a%2F98fe372e-6ea5-4988-83d8-951e2e6d56b2.jpg",
+        "/file?p=%2FUsers%2Ferikbelt%2FDesktop%2FMood%20Tracking%20App%2Ftext-overlay%2Fdist%2Fuploads%2F1758160989148-osqf9a%2F099fec70-5dd6-46f0-b642-31d716705dbb.jpg"
+      ],
+      "backgrounds": []
+    },
+    "colors": {
+      "brand_primary": "#f07020",
+      "brand_secondary": "#302050",
+      "accent_1": "#f08030",
+      "accent_2": "#f07010"
+    }
+  }
+}

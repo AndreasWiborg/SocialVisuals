@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { 
+  scroll-behavior: smooth; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  
+  /* Enhanced color palette */
+  --primary: 243 80% 62%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 5% 96%;
+  --secondary-foreground: 240 10% 4%;
+  --accent: 258 90% 66%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 4%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 4%;
+  --border: 240 6% 90%;
+  --input: 240 6% 90%;
+  --ring: 243 80% 62%;
+  --radius: 0.75rem;
+}
+
+body {
+  @apply bg-gradient-to-b from-slate-50 to-white text-slate-900 antialiased;
+  font-feature-settings: "liga", "kern", "ss01";
+}
+
+:root {
+  --radius-card: 16px;
+}
+
+.font-sans {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Enhanced focus styles */
+*:focus {
+  @apply outline-none;
+}
+
+*:focus-visible {
+  @apply ring-2 ring-violet-500/20 ring-offset-2;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-lg hover:bg-slate-400;
+}
+
+/* Glass morphism effect utility */
+.glass {
+  @apply bg-white/80 backdrop-blur-xl backdrop-saturate-150 border border-white/20;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent;
+}
+
+/* Card hover effect */
+.card-hover {
+  @apply hover:shadow-xl hover:-translate-y-1 transition-all duration-300;
+}
+
+/* Shine effect for buttons */
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.shine {
+  background: linear-gradient(110deg, transparent 40%, rgba(255, 255, 255, 0.3) 50%, transparent 60%);
+  background-size: 200% 100%;
+  animation: shine 3s linear infinite;
+}
+
+/* Blob animation for background */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}

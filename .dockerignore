@@ -1,0 +1,14 @@
+.git
+.gitignore
+node_modules
+.dockerignore
+**/node_modules
+**/.next
+**/.turbo
+**/.cache
+text-overlay/Text-Overlay-API.log
+frontend/frontend.log
+frontend/frontend.server.log
+runs
+__stage_tmp__
+*.DS_Store
