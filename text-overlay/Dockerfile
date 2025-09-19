@@ -72,13 +72,14 @@ COPY text-overlay/bundles*.json ./
 COPY text-overlay/manifest.json ./
 COPY text-overlay/bg-*.png ./
 
-# Create mappings directory - will be populated at runtime if needed
-RUN mkdir -p ./mappings
+# Create mappings directories - will be populated at runtime if needed
+RUN mkdir -p ./mappings ./dist/mappings
 
 # Create template/config lookup roots expected by the pipeline
 RUN mkdir -p /app/AdCreator2/backend/templates /app/AdCreator2/backend/assets /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
 
-RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads
+# Create runtime directories for uploads, logs, etc.
+RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
 
 ENV NODE_ENV=production
 ENV PORT=3000
