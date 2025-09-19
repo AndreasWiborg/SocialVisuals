@@ -21,6 +21,8 @@ COPY text-overlay/package*.json ./
 RUN npm install --omit=dev
 
 COPY text-overlay/dist ./dist
+# Explicitly copy the runs directory to ensure it's included
+COPY text-overlay/dist/runs ./dist/runs
 COPY text-overlay/fonts ./fonts
 COPY text-overlay/scripts ./scripts
 COPY text-overlay/bundles*.json ./
