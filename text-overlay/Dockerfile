@@ -21,8 +21,47 @@ COPY text-overlay/package*.json ./
 RUN npm install --omit=dev
 
 COPY text-overlay/dist ./dist
-# Explicitly copy the runs directory to ensure it's included
-COPY text-overlay/dist/runs ./dist/runs
+# Create the runs directory and the recorder.js file
+RUN mkdir -p ./dist/runs && cat > ./dist/runs/recorder.js << 'EOF'
+import fs from 'fs/promises';
+import path from 'path';
+export async function initRun(dir, startedAt) {
+    await fs.mkdir(dir, { recursive: true });
+    const p = path.join(dir, 'manifest.json');
+    const now = new Date().toISOString();
+    const manifest = { startedAt: startedAt || now, finishedAt: null, total: 0, items: [], dir };
+    try {
+        await fs.writeFile(p, JSON.stringify(manifest, null, 2), 'utf-8');
+    }
+    catch { }
+}
+export async function appendItem(dir, item) {
+    const p = path.join(dir, 'manifest.json');
+    let data = { startedAt: new Date().toISOString(), finishedAt: null, total: 0, items: [], dir };
+    try {
+        data = JSON.parse(await fs.readFile(p, 'utf-8'));
+    }
+    catch { }
+    data.items = data.items || [];
+    data.items.push(item);
+    data.total = data.items.length;
+    data.dir = dir;
+    await fs.writeFile(p, JSON.stringify(data, null, 2), 'utf-8');
+}
+export async function finalizeRun(dir) {
+    const p = path.join(dir, 'manifest.json');
+    let data;
+    try {
+        data = JSON.parse(await fs.readFile(p, 'utf-8'));
+    }
+    catch {
+        return;
+    }
+    data.finishedAt = new Date().toISOString();
+    data.total = (data.items || []).length;
+    await fs.writeFile(p, JSON.stringify(data, null, 2), 'utf-8');
+}
+EOF
 COPY text-overlay/fonts ./fonts
 COPY text-overlay/scripts ./scripts
 COPY text-overlay/bundles*.json ./
