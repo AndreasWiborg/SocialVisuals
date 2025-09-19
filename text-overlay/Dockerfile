@@ -28,9 +28,8 @@ COPY text-overlay/bundles*.json ./
 COPY text-overlay/manifest.json ./
 COPY text-overlay/bg-*.png ./
 
-# Provide template/config lookup roots expected by the pipeline
-COPY AdCreator2/backend/assets /app/AdCreator2/backend/assets
-RUN mkdir -p /app/AdCreator2/backend/templates /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
+# Create template/config lookup roots expected by the pipeline
+RUN mkdir -p /app/AdCreator2/backend/templates /app/AdCreator2/backend/assets /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
 
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads
 
