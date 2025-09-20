@@ -90,7 +90,7 @@ COPY text-overlay/templates/configs /app/AdCreator2/backend/templates/configs
 COPY text-overlay/templates/configs-backup /app/AdCreator2/backend/templates/configs-backup
 
 # Copy bundled image assets referenced by SVG templates
-COPY text-overlay/template-assets/image-generation-service/assets /app/AdCreator/image-generation-service/assets
+COPY text-overlay/template-assets/image-generation-service/assets/ /app/AdCreator/image-generation-service/assets/
 
 # Create runtime directories for uploads, logs, etc.
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
