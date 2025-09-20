@@ -76,16 +76,21 @@ COPY text-overlay/bg-*.png ./
 RUN mkdir -p ./mappings ./dist/mappings
 
 # Create template/config lookup roots expected by the pipeline
-RUN mkdir -p /app/AdCreator2/backend /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
+RUN mkdir -p \
+    /app/AdCreator2/backend \
+    /app/AdCreator/image-generation-service/templates \
+    /app/AdCreator/image-generation-service/assets \
+    /app/AdCreator/backend/templates/configs \
+    /app/templates \
+    /app/templates-new
 
 # Copy template/config directories needed by the SVG processor
 COPY text-overlay/templates/svgs /app/AdCreator2/backend/templates/svgs
 COPY text-overlay/templates/configs /app/AdCreator2/backend/templates/configs
 COPY text-overlay/templates/configs-backup /app/AdCreator2/backend/templates/configs-backup
-COPY text-overlay/templates/assets.tar.gz /tmp/adcreator-assets.tar.gz
-RUN mkdir -p /app/AdCreator2/backend && \
-    tar -xzf /tmp/adcreator-assets.tar.gz -C /app/AdCreator2/backend && \
-    rm /tmp/adcreator-assets.tar.gz
+
+# Copy bundled image assets referenced by SVG templates
+COPY text-overlay/template-assets/image-generation-service/assets /app/AdCreator/image-generation-service/assets
 
 # Create runtime directories for uploads, logs, etc.
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
