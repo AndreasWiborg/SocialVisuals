@@ -78,10 +78,10 @@ RUN mkdir -p ./mappings ./dist/mappings
 # Create template/config lookup roots expected by the pipeline
 RUN mkdir -p /app/AdCreator2/backend /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
 
-# Copy AdCreator2 backend directories needed by SVG processor
-COPY AdCreator2/backend/templates /app/AdCreator2/backend/templates
-COPY AdCreator2/backend/assets /app/AdCreator2/backend/assets
-COPY AdCreator2/backend/output /app/AdCreator2/backend/output
+# Copy template/config directories needed by the SVG processor
+COPY text-overlay/templates/svgs /app/AdCreator2/backend/templates/svgs
+COPY text-overlay/templates/configs /app/AdCreator2/backend/templates/configs
+COPY text-overlay/templates/configs-backup /app/AdCreator2/backend/templates/configs-backup
 
 # Create runtime directories for uploads, logs, etc.
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
