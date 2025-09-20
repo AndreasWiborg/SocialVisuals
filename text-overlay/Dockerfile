@@ -82,6 +82,10 @@ RUN mkdir -p /app/AdCreator2/backend /app/AdCreator/image-generation-service/tem
 COPY text-overlay/templates/svgs /app/AdCreator2/backend/templates/svgs
 COPY text-overlay/templates/configs /app/AdCreator2/backend/templates/configs
 COPY text-overlay/templates/configs-backup /app/AdCreator2/backend/templates/configs-backup
+COPY text-overlay/templates/assets.tar.gz /tmp/adcreator-assets.tar.gz
+RUN mkdir -p /app/AdCreator2/backend && \
+    tar -xzf /tmp/adcreator-assets.tar.gz -C /app/AdCreator2/backend && \
+    rm /tmp/adcreator-assets.tar.gz
 
 # Create runtime directories for uploads, logs, etc.
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
