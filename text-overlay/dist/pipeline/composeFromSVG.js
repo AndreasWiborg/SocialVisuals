@@ -4,6 +4,49 @@ import sharp from 'sharp';
 import https from 'https';
 import http from 'http';
 import { PlaceholderResolver, replacePlaceholdersInSVG } from '../services/placeholder-resolver.js';
+
+const defaultPathRemaps = (() => {
+    const pairs = [];
+    const localRoot = '/Users/erikbelt/Desktop/Mood Tracking App/';
+    if (process.env.FILE_PATH_ROOT_LOCAL && process.env.FILE_PATH_ROOT_REMOTE) {
+        pairs.push([process.env.FILE_PATH_ROOT_LOCAL.replace(/\\/g, '/'), process.env.FILE_PATH_ROOT_REMOTE]);
+    }
+    pairs.push([localRoot, '/app/']);
+    return pairs;
+})();
+
+const envRemaps = (process.env.FILE_PATH_REMAPS || '')
+    .split(',')
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map(entry => {
+    const parts = entry.split('=>');
+    if (parts.length !== 2)
+        return null;
+    const from = parts[0].trim().replace(/\\/g, '/');
+    const to = parts[1].trim();
+    if (!from || !to)
+        return null;
+    return [from, to];
+})
+    .filter(Boolean);
+
+const PATH_REMAPS = [...envRemaps, ...defaultPathRemaps];
+
+function remapAbsolutePath(p) {
+    if (!p)
+        return p;
+    const normalized = p.replace(/\\/g, '/');
+    for (const [from, to] of PATH_REMAPS) {
+        if (normalized.startsWith(from)) {
+            const suffix = normalized.slice(from.length);
+            if (to.endsWith('/'))
+                return path.resolve(to, suffix);
+            return path.resolve(to, suffix);
+        }
+    }
+    return p;
+}
 function decodeFileUrlOrPath(val) {
     if (!val)
         return null;
@@ -20,13 +63,14 @@ function decodeFileUrlOrPath(val) {
     }
     if (val.startsWith('file:///')) {
         try {
-            return decodeURIComponent(val.replace('file:///', '/'));
+            const decoded = decodeURIComponent(val.replace('file:///', '/'));
+            return remapAbsolutePath(decoded);
         }
         catch {
-            return val.replace('file:///', '/');
+            return remapAbsolutePath(val.replace('file:///', '/'));
         }
     }
-    return val;
+    return remapAbsolutePath(val);
 }
 async function fileToDataUri(absPath) {
     const ext = (path.extname(absPath).slice(1) || 'png').toLowerCase();
