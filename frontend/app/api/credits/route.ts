@@ -19,9 +19,16 @@ export async function GET(request: NextRequest) {
     }
 
     const token = authHeader.substring(7)
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+    if (!supabaseUrl || !supabaseAnonKey) {
+      throw new Error('Missing Supabase environment variables for /api/credits')
+    }
+
     const authClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+      supabaseUrl,
+      supabaseAnonKey
     )
     const { data: { user }, error: authError } = await authClient.auth.getUser(token)
     console.log('[api/credits][GET] user?', user?.id, 'authError?', authError?.message)
@@ -99,9 +106,16 @@ export async function POST(request: NextRequest) {
     }
 
     const token = authHeader.substring(7)
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+    if (!supabaseUrl || !supabaseAnonKey) {
+      throw new Error('Missing Supabase environment variables for /api/credits')
+    }
+
     const authClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+      supabaseUrl,
+      supabaseAnonKey
     )
     const { data: { user }, error: authError } = await authClient.auth.getUser(token)
     console.log('[api/credits][POST] user?', user?.id, 'authError?', authError?.message)

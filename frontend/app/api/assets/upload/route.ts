@@ -1,17 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient as createSupabaseClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL as string
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string
+const getSupabaseConfig = () => {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    return null
+  }
+
+  return { supabaseUrl, supabaseAnonKey }
+}
 
 export async function POST(request: NextRequest) {
   try {
-    if (!supabaseUrl || !supabaseAnonKey) {
+    const config = getSupabaseConfig()
+
+    if (!config) {
       return NextResponse.json({ error: 'Supabase not configured' }, { status: 500 })
     }
 
     const authHeader = request.headers.get('authorization') || ''
-    const supabase = createSupabaseClient(supabaseUrl, supabaseAnonKey, {
+    const supabase = createSupabaseClient(config.supabaseUrl, config.supabaseAnonKey, {
       global: { headers: { Authorization: authHeader } }
     })
 

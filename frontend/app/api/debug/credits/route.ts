@@ -20,9 +20,16 @@ export async function GET(request: NextRequest) {
     const token = authHeader.replace('Bearer ', '')
     
     // Create a lightweight client to verify the JWT token
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+    if (!supabaseUrl || !supabaseAnonKey) {
+      throw new Error('Missing Supabase environment variables for /api/debug/credits')
+    }
+
     const authClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+      supabaseUrl,
+      supabaseAnonKey
     )
     
     // Verify the JWT token
@@ -90,9 +97,16 @@ export async function POST(request: NextRequest) {
     const token = authHeader.replace('Bearer ', '')
     
     // Create a lightweight client to verify the JWT token
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+    if (!supabaseUrl || !supabaseAnonKey) {
+      throw new Error('Missing Supabase environment variables for /api/debug/credits')
+    }
+
     const authClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+      supabaseUrl,
+      supabaseAnonKey
     )
     
     // Verify the JWT token

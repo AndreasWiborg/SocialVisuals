@@ -20,9 +20,16 @@ export async function POST(request: NextRequest) {
     }
 
     // Verify user via anon client
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+    if (!supabaseUrl || !supabaseAnonKey) {
+      throw new Error('Missing Supabase environment variables for /api/credits/debit')
+    }
+
     const authClient = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+      supabaseUrl,
+      supabaseAnonKey
     )
     const { data: { user }, error: authError } = await authClient.auth.getUser(token)
     if (authError || !user) {
@@ -79,4 +86,3 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }
-
