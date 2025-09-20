@@ -79,8 +79,8 @@ RUN mkdir -p ./mappings ./dist/mappings
 RUN mkdir -p /app/AdCreator2/backend/templates /app/AdCreator2/backend/assets /app/AdCreator/image-generation-service/templates /app/AdCreator/backend/templates/configs /app/templates /app/templates-new
 
 # Ensure SVG templates and related assets are available at runtime
-COPY AdCreator2/backend/templates /app/AdCreator2/backend/templates
-COPY AdCreator2/backend/assets /app/AdCreator2/backend/assets
+COPY ../AdCreator2/backend/templates /app/AdCreator2/backend/templates
+COPY ../AdCreator2/backend/assets /app/AdCreator2/backend/assets
 
 # Create runtime directories for uploads, logs, etc.
 RUN mkdir -p /app/text-overlay/logs /app/text-overlay/runs /app/text-overlay/uploads ./uploads ./logs ./runs
