@@ -1,0 +1,236 @@
+{
+  "templateName": "Images_1wordBenefits",
+  "description": "Images with 1 worded benefits",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_QUESTION",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-background",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 40,
+      "width": 820,
+      "height": 120,
+      "bounds": {
+        "x": 130,
+        "y": 40,
+        "width": 820,
+        "height": 120
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "minLines": 1,
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_QUESTION",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 24
+    },
+    {
+      "id": "COMPANY_NAME",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-background",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 360,
+      "y": 1000,
+      "width": 370,
+      "height": 50,
+      "bounds": {
+        "x": 360,
+        "y": 1000,
+        "width": 370,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info mail",
+      "contentTypeId": "COMPANY_NAME",
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 24,
+      "minFontPx": 16
+    },
+    {
+      "id": "1_word_benefit",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 280,
+      "y": 350,
+      "width": 180,
+      "height": 50,
+      "bounds": {
+        "x": 280,
+        "y": 350,
+        "width": 180,
+        "height": 50
+      },
+      "maxWords": 1,
+      "aiHint": "One word benefit",
+      "contentTypeId": "1_word_benefit",
+      "roleCandidates": [
+        "Bullets.Benefit"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "token",
+      "maxChars": 8,
+      "minFontPx": 16
+    },
+    {
+      "id": "OneWordBenefit",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 700,
+      "y": 580,
+      "width": 140,
+      "height": 50,
+      "bounds": {
+        "x": 700,
+        "y": 580,
+        "width": 140,
+        "height": 50
+      },
+      "maxWords": 1,
+      "dependsOn": {
+        "field": "1_word_benefit",
+        "type": "excludes"
+      },
+      "aiHint": "One word benefit",
+      "contentTypeId": "OneWordBenefit",
+      "roleCandidates": [
+        "Bullets.Benefit"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "token",
+      "maxChars": 8,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.806Z",
+    "changes": 4
+  }
+}

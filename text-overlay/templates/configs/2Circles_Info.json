@@ -1,0 +1,294 @@
+{
+  "templateName": "2Circles_Info",
+  "description": "2 circles images and info",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 560,
+      "y": 20,
+      "width": 480,
+      "height": 270,
+      "bounds": {
+        "x": 560,
+        "y": 20,
+        "width": 480,
+        "height": 270
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "maxLines": 2,
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 48,
+      "minFontPx": 24
+    },
+    {
+      "id": "Contact1",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 820,
+      "y": 1010,
+      "width": 230,
+      "height": 50,
+      "bounds": {
+        "x": 820,
+        "y": 1010,
+        "width": 230,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Location of company",
+      "contentTypeId": "Contact1",
+      "roleCandidates": [
+        "CONTACT.url",
+        "CONTACT.phone"
+      ],
+      "semanticPurpose": "Primary contact method",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 14
+    },
+    {
+      "id": "Contact2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 1010,
+      "width": 210,
+      "height": 50,
+      "bounds": {
+        "x": 490,
+        "y": 1010,
+        "width": 210,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "sameFontSizeAs": "Contact1",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Webpage of company",
+      "contentTypeId": "Contact2",
+      "roleCandidates": [
+        "CONTACT.email",
+        "CONTACT.phone"
+      ],
+      "semanticPurpose": "Secondary contact method",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 14
+    },
+    {
+      "id": "Contact3",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 1010,
+      "width": 250,
+      "height": 50,
+      "bounds": {
+        "x": 130,
+        "y": 1010,
+        "width": 250,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "sameFontSizeAs": "Contact1",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Mail of company",
+      "contentTypeId": "Contact3",
+      "roleCandidates": [
+        "CONTACT.url",
+        "CONTACT.email"
+      ],
+      "semanticPurpose": "Additional contact info",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 14
+    },
+    {
+      "id": "CTA_PRIMARY",
+      "containerId": null,
+      "maxFontSize": 25,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "black",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 580,
+      "y": 530,
+      "width": 210,
+      "height": 50,
+      "bounds": {
+        "x": 580,
+        "y": 530,
+        "width": 210,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Contact2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info or company name",
+      "contentTypeId": "CTA_PRIMARY",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Main action button",
+      "fitMode": "single_line",
+      "maxChars": 24,
+      "minFontPx": 18
+    },
+    {
+      "id": "VALUE_PROP",
+      "containerId": null,
+      "maxFontSize": 55,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 560,
+      "y": 300,
+      "width": 490,
+      "height": 230,
+      "bounds": {
+        "x": 560,
+        "y": 300,
+        "width": 490,
+        "height": 230
+      },
+      "fontFamily": "Playfair Display",
+      "minLines": 1,
+      "maxLines": 3,
+      "relativeFontSize": {
+        "percentage": 60,
+        "baseField": "Title"
+      },
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "contentTypeId": "VALUE_PROP",
+      "roleCandidates": [
+        "Body.Promise",
+        "Body.Question",
+        "Body.Urgency",
+        "Body.Problem",
+        "Body.Solution",
+        "Body.Proof",
+        "Body.Benefit",
+        "Body.Statement",
+        "Body.Generic"
+      ],
+      "semanticPurpose": "Explain customer value",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 153,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.788Z",
+    "changes": 6
+  }
+}

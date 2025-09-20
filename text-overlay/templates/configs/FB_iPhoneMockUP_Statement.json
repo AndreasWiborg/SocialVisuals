@@ -1,0 +1,145 @@
+{
+  "templateName": "FB_iPhoneMockUP_Statement",
+  "description": "Clean Iphone Mockup + Statement with CTA,",
+  "dimensions": {
+    "width": 940,
+    "height": 788
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Headline_Statement",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 70,
+      "y": 250,
+      "width": 340,
+      "height": 250,
+      "bounds": {
+        "x": 70,
+        "y": 250,
+        "width": 340,
+        "height": 250
+      },
+      "fontFamily": "Barlow",
+      "aiHint": "Statement that try work up engagement. Like \"Track your mood and get valuable insights with Bloom\", where Bloom is a Mood Tracking App that provide analytics for how you track mood. ",
+      "contentTypeId": "Headline_Statement",
+      "roleCandidates": [
+        "H1.Statement"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 455,
+      "minFontPx": 24
+    },
+    {
+      "id": "CTA_PRIMARY",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 80,
+      "y": 530,
+      "width": 260,
+      "height": 70,
+      "bounds": {
+        "x": 80,
+        "y": 530,
+        "width": 260,
+        "height": 70
+      },
+      "fontFamily": "Barlow",
+      "maxWords": 2,
+      "minLines": 1,
+      "contentTypeId": "CTA_PRIMARY",
+      "roleCandidates": [
+        "Button.Statement"
+      ],
+      "semanticPurpose": "Main action button",
+      "fitMode": "single_line",
+      "maxChars": 16,
+      "minFontPx": 18
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.803Z",
+    "changes": 2
+  }
+}

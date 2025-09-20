@@ -1,0 +1,447 @@
+{
+  "templateName": "My Template",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Benefit/Feature",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#80fffd",
+      "colorMode": "brand-light",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 150,
+      "width": 680,
+      "height": 130,
+      "bounds": {
+        "x": 200,
+        "y": 150,
+        "width": 680,
+        "height": 130
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "300",
+      "maxWords": 1,
+      "fontGroup": "Benefits",
+      "allowedWords": [
+        "Benefits",
+        "Features",
+        "Services",
+        "Qualities",
+        "Accomplish"
+      ],
+      "dependsOn": {
+        "field": "of/by/from_Service",
+        "type": "matches"
+      },
+      "contentTypeId": "HEADLINE_SHORT_1"
+    },
+    {
+      "id": "of/by/from_Service",
+      "containerId": null,
+      "maxFontSize": 100,
+      "alignment": "center",
+      "color": "#ffffff",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 200,
+      "y": 260,
+      "width": 680,
+      "height": 200,
+      "bounds": {
+        "x": 200,
+        "y": 260,
+        "width": 680,
+        "height": 200
+      },
+      "fontFamily": "Fredoka One",
+      "fontWeight": "bold",
+      "maxWords": 5,
+      "format": "uppercase",
+      "dependsOn": {
+        "field": "Benefit/Feature",
+        "type": "complement"
+      },
+      "aiHint": "Connect to textbox 1. So if it says \"Features\", answer here might be \"of Product Name/Product Service\" ",
+      "contentTypeId": "HEADLINE_SHORT_2"
+    },
+    {
+      "id": "Positive_1",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#38c3ff",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 170,
+      "y": 785,
+      "width": 740,
+      "height": 86,
+      "bounds": {
+        "x": 170,
+        "y": 785,
+        "width": 740,
+        "height": 86
+      },
+      "fontFamily": "Poppins",
+      "maxWords": 4,
+      "contentTypeId": "BENEFIT_1"
+    },
+    {
+      "id": "Positive 2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#38c3ff",
+      "colorMode": "brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 170,
+      "y": 945,
+      "width": 740,
+      "height": 86,
+      "bounds": {
+        "x": 170,
+        "y": 945,
+        "width": 740,
+        "height": 86
+      },
+      "fontFamily": "Poppins",
+      "maxWords": 4,
+      "contentTypeId": "BENEFIT_2"
+    },
+    {
+      "id": "Positive_3",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#38c3ff",
+      "colorMode": "brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 170,
+      "y": 1105,
+      "width": 740,
+      "height": 86,
+      "bounds": {
+        "x": 170,
+        "y": 1105,
+        "width": 740,
+        "height": 86
+      },
+      "fontFamily": "Poppins",
+      "maxWords": 4,
+      "contentTypeId": "BENEFIT_3"
+    },
+    {
+      "id": "Positive_4",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#38c3ff",
+      "colorMode": "brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 170,
+      "y": 1265,
+      "width": 740,
+      "height": 86,
+      "bounds": {
+        "x": 170,
+        "y": 1265,
+        "width": 740,
+        "height": 86
+      },
+      "fontFamily": "Poppins",
+      "maxWords": 4,
+      "contentTypeId": "BENEFIT_4"
+    },
+    {
+      "id": "Company_Name",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "center",
+      "color": "#ffffff",
+      "colorMode": "white",
+      "description": "Name of Company",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 170,
+      "y": 1640,
+      "width": 740,
+      "height": 80,
+      "bounds": {
+        "x": 170,
+        "y": 1640,
+        "width": 740,
+        "height": 80
+      },
+      "fontFamily": "Bebas Neue",
+      "contentTypeId": "COMPANY_NAME"
+    }
+  ],
+  "aiPrompt": {
+    "style": "engaging and informative",
+    "tone": "confident yet approachable",
+    "emotion": "inspiring and trustworthy",
+    "context": "Creating a benefits-focused social media advertisement highlighting 4 key product/service advantages. The benefits/features must be factual and follow the same red line. Avoid bloated language, and focus more on value for user. The benefit need to make sense on their own without having much pre-knowledge about the brand. "
+  },
+  "safeImageAreas": [
+    {
+      "id": "background_1",
+      "placeholder": "PLACE_BACKGROUND_IMAGE",
+      "type": "background",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    }
+  ]
+}

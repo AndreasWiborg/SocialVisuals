@@ -1,0 +1,41 @@
+{
+  "id": "test-template-1",
+  "name": "Test Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 800,
+    "height": 600
+  },
+  "imageAreas": [],
+  "colors": {
+    "dynamic": {
+      "COLOR_PRIMARY": {
+        "source": "fixed",
+        "value": "#FF0000"
+      }
+    }
+  },
+  "safeTextAreas": [
+    {
+      "id": "headline",
+      "constraints": {
+        "required": false
+      },
+      "roleCandidates": [
+        "PRIMARY_PROMISE",
+        "URGENCY_HEADLINE"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": null,
+      "minFontPx": 24,
+      "contentTypeId": "HEADLINE"
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.817Z",
+    "changes": 1
+  },
+  "templateName": "test-template-1"
+}

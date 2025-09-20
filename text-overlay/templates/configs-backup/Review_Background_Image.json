@@ -1,0 +1,134 @@
+{
+  "templateName": "Review_Background_Image",
+  "description": "Review with background image",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Review",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 230,
+      "y": 560,
+      "width": 630,
+      "height": 290,
+      "bounds": {
+        "x": 230,
+        "y": 560,
+        "width": 630,
+        "height": 290
+      },
+      "fontFamily": "Roboto",
+      "contentTypeId": "Review"
+    },
+    {
+      "id": "Testimonial",
+      "containerId": null,
+      "maxFontSize": 50,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 230,
+      "y": 440,
+      "width": 630,
+      "height": 100,
+      "bounds": {
+        "x": 230,
+        "y": 440,
+        "width": 630,
+        "height": 100
+      },
+      "fontFamily": "Raleway",
+      "fontWeight": "bold",
+      "maxWords": 2,
+      "maxLines": 1,
+      "customPattern": {
+        "examples": [
+          "Testimonal",
+          "Review",
+          "Customer Feedback"
+        ]
+      },
+      "aiHint": "Just a headline with max 2 words. Like \"Testimonial\", \"Review\", \"Customer Feedback\"",
+      "contentTypeId": "Testimonial"
+    }
+  ]
+}

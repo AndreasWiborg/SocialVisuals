@@ -1,0 +1,282 @@
+{
+  "templateName": "5Features_Benefits",
+  "description": "Features/Benefits",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 190,
+      "y": 250,
+      "width": 700,
+      "height": 120,
+      "bounds": {
+        "x": 190,
+        "y": 250,
+        "width": 700,
+        "height": 120
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "maxLines": 2,
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "PRIMARY_PROMISE",
+        "URGENCY_HEADLINE"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 48,
+      "minFontPx": 24
+    },
+    {
+      "id": "BENEFIT_1",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 370,
+      "y": 455,
+      "width": 410,
+      "height": 50,
+      "bounds": {
+        "x": 370,
+        "y": 455,
+        "width": 410,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "First key benefit or feature",
+      "contentTypeId": "BENEFIT_1",
+      "roleCandidates": [
+        "BENEFIT.cost",
+        "BENEFIT.speed"
+      ],
+      "semanticPurpose": "First key benefit",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "BENEFIT_2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 370,
+      "y": 520,
+      "width": 410,
+      "height": 50,
+      "bounds": {
+        "x": 370,
+        "y": 520,
+        "width": 410,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "sameFontSizeAs": "Benefit1",
+      "dependsOn": {
+        "field": "Benefit1",
+        "type": "excludes"
+      },
+      "aiHint": "Second unique benefit or feature",
+      "contentTypeId": "BENEFIT_2",
+      "roleCandidates": [
+        "BENEFIT.trust",
+        "BENEFIT.quality"
+      ],
+      "semanticPurpose": "Second key benefit",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "BENEFIT_3",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 370,
+      "y": 585,
+      "width": 410,
+      "height": 50,
+      "bounds": {
+        "x": 370,
+        "y": 585,
+        "width": 410,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "sameFontSizeAs": "Benefit1",
+      "dependsOn": {
+        "field": "Benefit2",
+        "type": "excludes"
+      },
+      "aiHint": "Third unique benefit or feature",
+      "contentTypeId": "BENEFIT_3",
+      "roleCandidates": [
+        "BENEFIT.speed",
+        "BENEFIT.quality",
+        "PROOF.metric"
+      ],
+      "semanticPurpose": "Third key benefit",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "BENEFIT_4",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 370,
+      "y": 650,
+      "width": 410,
+      "height": 50,
+      "bounds": {
+        "x": 370,
+        "y": 650,
+        "width": 410,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "sameFontSizeAs": "Benefit1",
+      "dependsOn": {
+        "field": "Benefit3",
+        "type": "excludes"
+      },
+      "aiHint": "Fourth unique benefit or feature",
+      "contentTypeId": "BENEFIT_4",
+      "roleCandidates": [
+        "BENEFIT.cost",
+        "BENEFIT.speed",
+        "BENEFIT.trust",
+        "BENEFIT.quality"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "BENEFIT_5",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 370,
+      "y": 715,
+      "width": 410,
+      "height": 50,
+      "bounds": {
+        "x": 370,
+        "y": 715,
+        "width": 410,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "sameFontSizeAs": "Benefit1",
+      "dependsOn": {
+        "field": "Benefit4",
+        "type": "excludes"
+      },
+      "aiHint": "Fifth unique benefit or feature",
+      "contentTypeId": "BENEFIT_5",
+      "roleCandidates": [
+        "BENEFIT.cost",
+        "BENEFIT.speed",
+        "BENEFIT.trust",
+        "BENEFIT.quality"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.797Z",
+    "changes": 6
+  }
+}

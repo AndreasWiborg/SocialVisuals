@@ -1,0 +1,318 @@
+{
+  "templateName": "About_Us",
+  "description": "About Us + Info about company",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "brand-light",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 340,
+      "y": 310,
+      "width": 220,
+      "height": 80,
+      "bounds": {
+        "x": 340,
+        "y": 310,
+        "width": 220,
+        "height": 80
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 3,
+      "maxLines": 1,
+      "contentTypeId": "CTA_SECONDARY"
+    },
+    {
+      "id": "CTA_Info",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "brand-light",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 340,
+      "y": 980,
+      "width": 650,
+      "height": 50,
+      "bounds": {
+        "x": 340,
+        "y": 980,
+        "width": 650,
+        "height": 50
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 6,
+      "maxLines": 1,
+      "contentTypeId": "SLOGAN",
+      "aiHint": "Brand slogan or just write company info."
+    },
+    {
+      "id": "1_Action_Word",
+      "containerId": null,
+      "maxFontSize": 250,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 50,
+      "y": 40,
+      "width": 630,
+      "height": 270,
+      "bounds": {
+        "x": 50,
+        "y": 40,
+        "width": 630,
+        "height": 270
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "bold",
+      "maxWords": 1,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "1_Action_Word",
+        "type": "complement"
+      },
+      "aiHint": "One word, like \"About\", \"New\", \"Try\" etc. Max 6 letter word",
+      "contentTypeId": "CTA_PRIMARY_1"
+    },
+    {
+      "id": "Follow_Up_Action",
+      "containerId": null,
+      "maxFontSize": 250,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 50,
+      "y": 240,
+      "width": 630,
+      "height": 240,
+      "bounds": {
+        "x": 50,
+        "y": 240,
+        "width": 630,
+        "height": 240
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "bold",
+      "maxWords": 1,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "1_Action_Word",
+        "type": "complement"
+      },
+      "aiHint": "Follows up on the dependency 1_Action_Word. If \"About\" then \"Us\", if \"New\" then \"Product\", \"Feature\" etc, if \"Try\" then \"Us\", \"Now\" etc. Max 3 letter word.",
+      "contentTypeId": "CTA_PRIMARY_2"
+    },
+    {
+      "id": "Value_Statement",
+      "containerId": null,
+      "maxFontSize": 55,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 50,
+      "y": 550,
+      "width": 440,
+      "height": 340,
+      "bounds": {
+        "x": 50,
+        "y": 550,
+        "width": 440,
+        "height": 340
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 20,
+      "dependsOn": {
+        "field": "1_Action_Word",
+        "type": "complement"
+      },
+      "aiHint": "Answer the Action Word headline with more comprehensive information related to company/product/service that excite the user. ",
+      "contentTypeId": "VALUE_PROP"
+    }
+  ]
+}

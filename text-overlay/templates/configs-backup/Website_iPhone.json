@@ -1,0 +1,125 @@
+{
+  "templateName": "Website_iPhone",
+  "description": "Website Launch",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Title",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 50,
+      "width": 680,
+      "height": 120,
+      "bounds": {
+        "x": 200,
+        "y": 50,
+        "width": 680,
+        "height": 120
+      },
+      "fontWeight": "bold",
+      "maxWords": 10,
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_MAIN"
+    },
+    {
+      "id": "Body",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 200,
+      "width": 490,
+      "height": 130,
+      "bounds": {
+        "x": 200,
+        "y": 200,
+        "width": 490,
+        "height": 130
+      },
+      "maxWords": 6,
+      "contentTypeId": "URGENCY_TIME"
+    }
+  ]
+}

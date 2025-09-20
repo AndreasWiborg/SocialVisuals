@@ -1,0 +1,152 @@
+{
+  "templateName": "Classic_Canva_Template_4",
+  "description": "Classic Canva4",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Title",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 190,
+      "width": 550,
+      "height": 280,
+      "bounds": {
+        "x": 40,
+        "y": 190,
+        "width": 550,
+        "height": 280
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "minLines": 2,
+      "maxLines": 3,
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHint": "Classic Headline"
+    },
+    {
+      "id": "Body_Text",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 480,
+      "width": 490,
+      "height": 160,
+      "bounds": {
+        "x": 40,
+        "y": 480,
+        "width": 490,
+        "height": 160
+      },
+      "fontFamily": "Playfair Display",
+      "minLines": 2,
+      "maxLines": 3,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Normal body playing on headline",
+      "contentTypeId": "Body_Text"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "white",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 0,
+      "y": 650,
+      "width": 300,
+      "height": 80,
+      "bounds": {
+        "x": 0,
+        "y": 650,
+        "width": 300,
+        "height": 80
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY"
+    },
+    {
+      "id": "Contact",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 110,
+      "y": 850,
+      "width": 370,
+      "height": 50,
+      "bounds": {
+        "x": 110,
+        "y": 850,
+        "width": 370,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info or company name",
+      "contentTypeId": "COMPANY_NAME"
+    }
+  ]
+}

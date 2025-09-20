@@ -1,0 +1,272 @@
+{
+  "templateName": "2xiPhone_HSB",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeImageAreas": [
+    {
+      "id": "screenshot_1",
+      "placeholder": "Place_Screenshot_Here",
+      "type": "product",
+      "description": "First iPhone screenshot",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    },
+    {
+      "id": "screenshot_2",
+      "placeholder": "Place_Screenshot_2_Here",
+      "type": "product",
+      "description": "Second iPhone screenshot",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    }
+  ],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "brand-shade-40",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 150,
+      "y": 850,
+      "width": 790,
+      "height": 110,
+      "bounds": {
+        "x": 150,
+        "y": 850,
+        "width": 790,
+        "height": 110
+      },
+      "fontFamily": "Montserrat",
+      "fontWeight": "bold",
+      "aiHint": "Connect to company name. Like a headline for the app",
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 410,
+      "minFontPx": 24
+    },
+    {
+      "id": "HEADLINE_SUB",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "brand-shade-40",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 150,
+      "y": 940,
+      "width": 790,
+      "height": 110,
+      "bounds": {
+        "x": 150,
+        "y": 940,
+        "width": 790,
+        "height": 110
+      },
+      "fontFamily": "Montserrat",
+      "fontWeight": "400",
+      "relativeFontSize": {
+        "baseField": "Headline",
+        "percentage": 80
+      },
+      "aiHint": "Connect to company name. Like a headline for the app",
+      "contentTypeId": "HEADLINE_SUB",
+      "roleCandidates": [
+        "H2.Promise",
+        "H2.Question",
+        "H2.Urgency",
+        "H2.Problem",
+        "H2.Solution",
+        "H2.Proof",
+        "H2.Benefit",
+        "H2.Statement",
+        "H2.Generic"
+      ],
+      "semanticPurpose": "Support main headline with details",
+      "evidence": "required",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 410,
+      "minFontPx": 24
+    },
+    {
+      "id": "VALUE_PROP",
+      "containerId": null,
+      "maxFontSize": 100,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 150,
+      "y": 1100,
+      "width": 790,
+      "height": 150,
+      "bounds": {
+        "x": 150,
+        "y": 1100,
+        "width": 790,
+        "height": 150
+      },
+      "fontFamily": "Poppins",
+      "relativeFontSize": {
+        "baseField": "Subheadline",
+        "percentage": 80
+      },
+      "vocabulary": "quality_terms",
+      "format": "uppercase",
+      "dependsOn": {
+        "field": "Subheadline",
+        "type": "complement"
+      },
+      "contentTypeId": "VALUE_PROP",
+      "roleCandidates": [
+        "Body.Promise",
+        "Body.Question",
+        "Body.Urgency",
+        "Body.Problem",
+        "Body.Solution",
+        "Body.Proof",
+        "Body.Benefit",
+        "Body.Statement",
+        "Body.Generic"
+      ],
+      "semanticPurpose": "Explain customer value",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 574,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.795Z",
+    "changes": 3
+  }
+}

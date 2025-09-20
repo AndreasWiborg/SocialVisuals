@@ -1,0 +1,298 @@
+{
+  "templateName": "ValueInfo",
+  "description": "Tips & Tricks about related topics of Brand/Service/Company",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 110,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "bottom",
+      "x": 200,
+      "y": 350,
+      "width": 680,
+      "height": 250,
+      "bounds": {
+        "x": 200,
+        "y": 350,
+        "width": 680,
+        "height": 250
+      },
+      "fontFamily": "Libre Franklin",
+      "fontWeight": "bold",
+      "maxWords": 4,
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 32,
+      "minFontPx": 24
+    },
+    {
+      "id": "ValueInfo_About_Headline",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 750,
+      "width": 680,
+      "height": 250,
+      "bounds": {
+        "x": 200,
+        "y": 750,
+        "width": 680,
+        "height": 250
+      },
+      "fontFamily": "Poppins",
+      "maxWords": 25,
+      "contentTypeId": "ValueInfo_About_Headline",
+      "roleCandidates": [
+        "H2.Promise",
+        "H2.Question",
+        "H2.Urgency",
+        "H2.Problem",
+        "H2.Solution",
+        "H2.Proof",
+        "H2.Benefit",
+        "H2.Statement",
+        "H2.Generic"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 200,
+      "minFontPx": 24
+    },
+    {
+      "id": "Company Name",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 720,
+      "y": 50,
+      "width": 330,
+      "height": 50,
+      "bounds": {
+        "x": 720,
+        "y": 50,
+        "width": 330,
+        "height": 50
+      },
+      "fontFamily": "Open Sans",
+      "maxWords": 3,
+      "aiHint": "Text should be the name of the company/brand/service and only that.",
+      "contentTypeId": "Company Name",
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "token",
+      "maxChars": 24,
+      "minFontPx": 16
+    },
+    {
+      "id": "CTA_PRIMARY",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 150,
+      "y": 1220,
+      "width": 390,
+      "height": 50,
+      "bounds": {
+        "x": 150,
+        "y": 1220,
+        "width": 390,
+        "height": 50
+      },
+      "fontFamily": "Open Sans",
+      "maxWords": 5,
+      "maxLines": 1,
+      "aiHint": "Subtle CTA, like \"Follow for daily insights\" ",
+      "contentTypeId": "CTA_PRIMARY",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Main action button",
+      "fitMode": "single_line",
+      "maxChars": 40,
+      "minFontPx": 18
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.815Z",
+    "changes": 4
+  }
+}

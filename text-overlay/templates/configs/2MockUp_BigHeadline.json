@@ -1,0 +1,246 @@
+{
+  "templateName": "2MockUp_BigHeadline",
+  "description": "Two muck ups in bottom + big headline up top",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "CTA_SECONDARY",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "right",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 637,
+      "y": 100,
+      "width": 260,
+      "height": 50,
+      "bounds": {
+        "x": 637,
+        "y": 100,
+        "width": 260,
+        "height": 50
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Just write company name",
+      "contentTypeId": "CTA_SECONDARY",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Alternative action",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 18
+    },
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 250,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 50,
+      "width": 600,
+      "height": 270,
+      "bounds": {
+        "x": 40,
+        "y": 50,
+        "width": 600,
+        "height": 270
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "bold",
+      "minWords": 3,
+      "maxWords": 6,
+      "minLines": 1,
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHints": {
+        "emotional_hook": "aspiration"
+      },
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 48,
+      "minFontPx": 24
+    },
+    {
+      "id": "VALUE_PROP",
+      "containerId": null,
+      "maxFontSize": 55,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 330,
+      "width": 410,
+      "height": 270,
+      "bounds": {
+        "x": 40,
+        "y": 330,
+        "width": 410,
+        "height": 270
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 25,
+      "dependsOn": {
+        "field": "HEADLINE_MAIN",
+        "type": "complement"
+      },
+      "aiHint": "Answer the Action Word headline with more comprehensive information related to company/product/service that excite the user. ",
+      "contentTypeId": "VALUE_PROP",
+      "roleCandidates": [
+        "Body.Promise",
+        "Body.Question",
+        "Body.Urgency",
+        "Body.Problem",
+        "Body.Solution",
+        "Body.Proof",
+        "Body.Benefit",
+        "Body.Statement",
+        "Body.Generic"
+      ],
+      "semanticPurpose": "Explain customer value",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 200,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.794Z",
+    "changes": 3
+  }
+}

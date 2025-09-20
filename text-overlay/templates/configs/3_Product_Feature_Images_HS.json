@@ -1,0 +1,201 @@
+{
+  "templateName": "3_Product_Feature_Images_HS",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeImageAreas": [
+    {
+      "id": "product_1",
+      "placeholder": "PLACE_PRODUCT_IMAGE_1_HERE",
+      "type": "product",
+      "description": "First product image",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    },
+    {
+      "id": "product_2",
+      "placeholder": "PLACE_PRODUCT_IMAGE_2_HERE",
+      "type": "product",
+      "description": "Second product image",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    },
+    {
+      "id": "product_3",
+      "placeholder": "PLACE_PRODUCT_IMAGE_3_HERE",
+      "type": "product",
+      "description": "Third product image",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    }
+  ],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 100,
+      "y": 60,
+      "width": 880,
+      "height": 140,
+      "bounds": {
+        "x": 100,
+        "y": 60,
+        "width": 880,
+        "height": 140
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "bold",
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 637,
+      "minFontPx": 24
+    },
+    {
+      "id": "HEADLINE_SUB",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 120,
+      "y": 160,
+      "width": 840,
+      "height": 140,
+      "bounds": {
+        "x": 120,
+        "y": 160,
+        "width": 840,
+        "height": 140
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 12,
+      "relativeFontSize": {
+        "baseField": "Headline",
+        "percentage": 75
+      },
+      "aiHint": "This text should be a mix of subheadline and CTA. So not as short as \"Download Now\" \"Buy now!\", but a little more value insighted text that still calls to action ",
+      "contentTypeId": "HEADLINE_SUB",
+      "roleCandidates": [
+        "H2.Promise",
+        "H2.Question",
+        "H2.Urgency",
+        "H2.Problem",
+        "H2.Solution",
+        "H2.Proof",
+        "H2.Benefit",
+        "H2.Statement",
+        "H2.Generic"
+      ],
+      "semanticPurpose": "Support main headline with details",
+      "evidence": "required",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 96,
+      "minFontPx": 24
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.796Z",
+    "changes": 2
+  }
+}

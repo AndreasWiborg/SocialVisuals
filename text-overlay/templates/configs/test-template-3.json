@@ -1,0 +1,71 @@
+{
+  "id": "test-template-3",
+  "name": "Complex SVG Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "imageAreas": [
+    {
+      "id": "background",
+      "placeholder": "background",
+      "constraints": {
+        "type": "background",
+        "required": true
+      }
+    },
+    {
+      "id": "overlay",
+      "placeholder": "overlay",
+      "constraints": {
+        "type": "overlay",
+        "required": false
+      }
+    }
+  ],
+  "colors": {
+    "dynamic": true
+  },
+  "safeTextAreas": [
+    {
+      "id": "headline",
+      "constraints": {
+        "required": true
+      },
+      "roleCandidates": [
+        "PRIMARY_PROMISE",
+        "URGENCY_HEADLINE"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": null,
+      "minFontPx": 24,
+      "contentTypeId": "HEADLINE"
+    },
+    {
+      "id": "subtitle",
+      "constraints": {
+        "required": false
+      },
+      "roleCandidates": [
+        "BENEFIT.cost",
+        "BENEFIT.speed",
+        "BENEFIT.trust",
+        "PROOF.metric"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "evidence": "required",
+      "fitMode": "multi_line_sentence",
+      "maxChars": null,
+      "minFontPx": 24,
+      "contentTypeId": "SUBTITLE"
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.818Z",
+    "changes": 2
+  },
+  "templateName": "test-template-3"
+}

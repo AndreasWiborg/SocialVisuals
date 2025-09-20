@@ -1,0 +1,26 @@
+{
+  "id": "test-template-1",
+  "name": "Test Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 800,
+    "height": 600
+  },
+  "textAreas": [
+    {
+      "id": "headline",
+      "constraints": {
+        "required": false
+      }
+    }
+  ],
+  "imageAreas": [],
+  "colors": {
+    "dynamic": {
+      "COLOR_PRIMARY": {
+        "source": "fixed",
+        "value": "#FF0000"
+      }
+    }
+  }
+}

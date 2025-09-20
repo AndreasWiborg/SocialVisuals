@@ -1,0 +1,44 @@
+{
+  "id": "test-template-3",
+  "name": "Complex SVG Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "imageAreas": [
+    {
+      "id": "background",
+      "placeholder": "background",
+      "constraints": {
+        "type": "background",
+        "required": true
+      }
+    },
+    {
+      "id": "overlay",
+      "placeholder": "overlay",
+      "constraints": {
+        "type": "overlay",
+        "required": false
+      }
+    }
+  ],
+  "textAreas": [
+    {
+      "id": "headline",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "id": "subtitle",
+      "constraints": {
+        "required": false
+      }
+    }
+  ],
+  "colors": {
+    "dynamic": true
+  }
+}

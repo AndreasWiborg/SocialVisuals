@@ -1,0 +1,53 @@
+{
+  "id": "test-template-2",
+  "name": "External Images Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 1200,
+    "height": 800
+  },
+  "imageAreas": [
+    {
+      "id": "hero",
+      "placeholder": "hero",
+      "constraints": {
+        "type": "hero",
+        "required": true
+      }
+    },
+    {
+      "id": "thumbnail",
+      "placeholder": "thumbnail",
+      "constraints": {
+        "type": "thumbnail",
+        "required": false
+      }
+    }
+  ],
+  "colors": {
+    "dynamic": true
+  },
+  "safeTextAreas": [
+    {
+      "id": "title",
+      "constraints": {
+        "required": true
+      },
+      "roleCandidates": [
+        "PRIMARY_PROMISE",
+        "URGENCY_HEADLINE"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": null,
+      "minFontPx": 24,
+      "contentTypeId": "TITLE"
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.817Z",
+    "changes": 1
+  },
+  "templateName": "test-template-2"
+}

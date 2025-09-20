@@ -1,0 +1,260 @@
+{
+  "templateName": "Classic_Canva",
+  "description": "Classic Canva",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Title",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-shade-40",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 190,
+      "width": 550,
+      "height": 280,
+      "bounds": {
+        "x": 40,
+        "y": 190,
+        "width": 550,
+        "height": 280
+      },
+      "fontFamily": "Clash Display",
+      "fontWeight": "600",
+      "maxWords": 3,
+      "minLines": 3,
+      "maxLines": 3,
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHint": "First word should be 20% darker than brand color, second word should be brand color. Third world should be 20% darker than brandcolor again. Relative font size on the words should be word one (70% of word 3). Word 2 (90% of word 3). "
+    },
+    {
+      "id": "Step1",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 100,
+      "y": 670,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 100,
+        "y": 670,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Benefit or Step 1 of Product/Service",
+      "contentTypeId": "FEATURE_1"
+    },
+    {
+      "id": "Step2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 100,
+      "y": 720,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 100,
+        "y": 720,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 100,
+        "baseField": "Step1"
+      },
+      "dependsOn": {
+        "field": "Step1",
+        "type": "complement"
+      },
+      "aiHint": "Step 2/Benefit 2",
+      "contentTypeId": "FEATURE_2"
+    },
+    {
+      "id": "Step3",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 100,
+      "y": 770,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 100,
+        "y": 770,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxLines": 1,
+      "relativeFontSize": {},
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Step 3/Benefit3",
+      "contentTypeId": "FEATURE_3"
+    },
+    {
+      "id": "Body_Text",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-shade-40",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 480,
+      "width": 490,
+      "height": 180,
+      "bounds": {
+        "x": 40,
+        "y": 480,
+        "width": 490,
+        "height": 180
+      },
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "minLines": 2,
+      "maxLines": 3,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Normal body playing on headline",
+      "contentTypeId": "Body_Text"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "white",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 60,
+      "y": 870,
+      "width": 250,
+      "height": 60,
+      "bounds": {
+        "x": 60,
+        "y": 870,
+        "width": 250,
+        "height": 60
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY"
+    },
+    {
+      "id": "Contact",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "white",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 110,
+      "y": 990,
+      "width": 400,
+      "height": 70,
+      "bounds": {
+        "x": 110,
+        "y": 990,
+        "width": 400,
+        "height": 70
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info or company name",
+      "contentTypeId": "COMPANY_NAME"
+    }
+  ]
+}

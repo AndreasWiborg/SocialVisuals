@@ -1,0 +1,161 @@
+{
+  "templateName": "Reminder_1",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "URGENCY_TIME",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 230,
+      "y": 560,
+      "width": 530,
+      "height": 80,
+      "bounds": {
+        "x": 230,
+        "y": 560,
+        "width": 530,
+        "height": 80
+      },
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "maxLines": 1,
+      "contentTypeId": "URGENCY_TIME",
+      "aiHint": "\"Reminder\", \"Remember\", stuff like that.",
+      "roleCandidates": [
+        "H2.Promise",
+        "H2.Question",
+        "H2.Urgency",
+        "H2.Problem",
+        "H2.Solution",
+        "H2.Proof",
+        "H2.Benefit",
+        "H2.Statement",
+        "H2.Generic"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "VALUE_PROP",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 180,
+      "y": 670,
+      "width": 730,
+      "height": 180,
+      "bounds": {
+        "x": 180,
+        "y": 670,
+        "width": 730,
+        "height": 180
+      },
+      "aiHint": "Text about what to remind.",
+      "contentTypeId": "VALUE_PROP",
+      "roleCandidates": [
+        "Body.Promise",
+        "Body.Question",
+        "Body.Urgency",
+        "Body.Problem",
+        "Body.Solution",
+        "Body.Proof",
+        "Body.Benefit",
+        "Body.Statement",
+        "Body.Generic"
+      ],
+      "semanticPurpose": "Explain customer value",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 684,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.812Z",
+    "changes": 2
+  }
+}

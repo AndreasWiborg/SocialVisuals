@@ -1,0 +1,194 @@
+{
+  "templateName": "My Template",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1584,
+    "height": 396
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Slogan_Inspire",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "right",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 850,
+      "y": 20,
+      "width": 700,
+      "height": 260,
+      "bounds": {
+        "x": 850,
+        "y": 20,
+        "width": 700,
+        "height": 260
+      },
+      "fontFamily": "Raleway",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "minLines": 2,
+      "maxLines": 2,
+      "aiHint": "Engaging Slogan that fits the brand.",
+      "contentTypeId": "Slogan_Inspire"
+    },
+    {
+      "id": "Company Name",
+      "containerId": null,
+      "maxFontSize": 30,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 850,
+      "y": 280,
+      "width": 410,
+      "height": 60,
+      "bounds": {
+        "x": 850,
+        "y": 280,
+        "width": 410,
+        "height": 60
+      },
+      "fontFamily": "Raleway",
+      "fontWeight": "bold",
+      "maxWords": 2,
+      "minLines": 1,
+      "maxLines": 1,
+      "aiHint": "Name of Company/Brand",
+      "contentTypeId": "Company Name"
+    },
+    {
+      "id": "Company_Mail",
+      "containerId": null,
+      "maxFontSize": 30,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 1210,
+      "y": 280,
+      "width": 410,
+      "height": 60,
+      "bounds": {
+        "x": 1210,
+        "y": 280,
+        "width": 410,
+        "height": 60
+      },
+      "fontFamily": "Raleway",
+      "fontWeight": "bold",
+      "maxWords": 2,
+      "minLines": 1,
+      "maxLines": 1,
+      "aiHint": "Mail or other support of company to get in touch. ",
+      "contentTypeId": "Company_Mail"
+    }
+  ]
+}

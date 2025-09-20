@@ -1,0 +1,291 @@
+{
+  "templateName": "My Template",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeImageAreas": [
+    {
+      "id": "screenshot_1",
+      "placeholder": "PLACE_SCREENSHOT_1_HERE",
+      "type": "product",
+      "description": "Center iPhone screenshot",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    },
+    {
+      "id": "screenshot_2",
+      "placeholder": "PLACE_SCREENSHOT_2_HERE",
+      "type": "product",
+      "description": "Left iPhone screenshot",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    },
+    {
+      "id": "screenshot_3",
+      "placeholder": "PLACE_SCREENSHOT_3_HERE",
+      "type": "product",
+      "description": "Right iPhone screenshot",
+      "acceptsTransparent": false,
+      "preferTransparent": false,
+      "backgroundRemoval": {
+        "mode": "never"
+      }
+    }
+  ],
+  "safeTextAreas": [
+    {
+      "id": "1_Action_Word",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 140,
+      "y": 100,
+      "width": 310,
+      "height": 190,
+      "bounds": {
+        "x": 140,
+        "y": 100,
+        "width": 310,
+        "height": 190
+      },
+      "fontFamily": "Caveat",
+      "fontWeight": "bold",
+      "maxWords": 1,
+      "aiHint": "One worded action like \"Buy\", \"New\", \"Try\"",
+      "contentTypeId": "CTA_PRIMARY_1"
+    },
+    {
+      "id": "Headline",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 440,
+      "y": 90,
+      "width": 600,
+      "height": 190,
+      "bounds": {
+        "x": 440,
+        "y": 90,
+        "width": 600,
+        "height": 190
+      },
+      "fontFamily": "Anton",
+      "fontWeight": "bold",
+      "relativeFontSize": {
+        "baseField": "1_Action_Word",
+        "percentage": 80
+      },
+      "dependsOn": {
+        "field": "1_Action_Word",
+        "type": "complement"
+      },
+      "aiHint": "Follows Textbox 1 which is a one worded action word, like \"New\", \"Buy\", \"Try\"",
+      "contentTypeId": "HEADLINE_MAIN"
+    },
+    {
+      "id": "Value_Prop",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 170,
+      "y": 260,
+      "width": 740,
+      "height": 100,
+      "bounds": {
+        "x": 170,
+        "y": 260,
+        "width": 740,
+        "height": 100
+      },
+      "fontFamily": "TT Norms",
+      "maxWords": 12,
+      "maxLines": 2,
+      "contentTypeId": "Value_Prop"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "top",
+      "x": 375,
+      "y": 1185,
+      "width": 330,
+      "height": 70,
+      "bounds": {
+        "x": 375,
+        "y": 1185,
+        "width": 330,
+        "height": 70
+      },
+      "fontFamily": "TT Norms",
+      "maxWords": 3,
+      "vocabulary": "cta_verbs",
+      "aiHint": "Classic CTA relevant for brand. Download Now for app, \"Buy Now\" for product, \"Learn More\" etc.",
+      "contentTypeId": "CTA_PRIMARY"
+    }
+  ],
+  "aiPrompt": {
+    "context": "Template is showing image in 3 iPhone Mock-Ups. Headline and subheadline should be relevant to those images. "
+  }
+}

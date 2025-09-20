@@ -1,0 +1,129 @@
+{
+  "templateName": "My Template",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Headline",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "custom",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 100,
+      "y": 150,
+      "width": 880,
+      "height": 160,
+      "bounds": {
+        "x": 100,
+        "y": 150,
+        "width": 880,
+        "height": 160
+      },
+      "fontFamily": "Bricolage Grotesque",
+      "fontWeight": "bold",
+      "maxLines": 1,
+      "format": "uppercase",
+      "contentTypeId": "HEADLINE_MAIN"
+    },
+    {
+      "id": "Company_Name",
+      "containerId": null,
+      "maxFontSize": 50,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "custom",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 280,
+      "y": 1190,
+      "width": 520,
+      "height": 70,
+      "bounds": {
+        "x": 280,
+        "y": 1190,
+        "width": 520,
+        "height": 70
+      },
+      "fontFamily": "Bricolage Grotesque",
+      "contentTypeId": "COMPANY_NAME"
+    }
+  ],
+  "aiPrompt": {
+    "context": "I suggest using either pure black or pure white for color (and keep it consistent on all text boxes on this template)"
+  }
+}

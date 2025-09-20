@@ -1,0 +1,69 @@
+{
+  "templateName": "Review_1",
+  "description": "Review 5 Star",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Review",
+      "containerId": null,
+      "maxFontSize": 36,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 410,
+      "width": 430,
+      "height": 550,
+      "bounds": {
+        "x": 40,
+        "y": 410,
+        "width": 430,
+        "height": 550
+      },
+      "fontFamily": "Open Sans",
+      "fontWeight": "300",
+      "aiHint": "Just pure copy of a scraped review from either AppStore/Playstore or Google/other. ",
+      "contentTypeId": "Review"
+    }
+  ]
+}

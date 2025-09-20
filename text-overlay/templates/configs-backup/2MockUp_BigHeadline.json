@@ -1,0 +1,199 @@
+{
+  "templateName": "2MockUp_BigHeadline",
+  "description": "Two muck ups in bottom + big headline up top",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "CTA_Info",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "right",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 637,
+      "y": 100,
+      "width": 260,
+      "height": 50,
+      "bounds": {
+        "x": 637,
+        "y": 100,
+        "width": 260,
+        "height": 50
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Just write company name",
+      "contentTypeId": "CTA_SECONDARY"
+    },
+    {
+      "id": "Headline",
+      "containerId": null,
+      "maxFontSize": 250,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 50,
+      "width": 600,
+      "height": 270,
+      "bounds": {
+        "x": 40,
+        "y": 50,
+        "width": 600,
+        "height": 270
+      },
+      "fontFamily": "Bebas Neue",
+      "fontWeight": "bold",
+      "minWords": 3,
+      "maxWords": 6,
+      "minLines": 3,
+      "dependsOn": {
+        "field": "1_Action_Word",
+        "type": "complement"
+      },
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHints": {
+        "emotional_hook": "aspiration"
+      }
+    },
+    {
+      "id": "Value_Statement",
+      "containerId": null,
+      "maxFontSize": 55,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 330,
+      "width": 410,
+      "height": 270,
+      "bounds": {
+        "x": 40,
+        "y": 330,
+        "width": 410,
+        "height": 270
+      },
+      "fontFamily": "Bebas Neue",
+      "maxWords": 25,
+      "dependsOn": {
+        "field": "Headline",
+        "type": "complement"
+      },
+      "aiHint": "Answer the Action Word headline with more comprehensive information related to company/product/service that excite the user. ",
+      "contentTypeId": "VALUE_PROP"
+    }
+  ]
+}

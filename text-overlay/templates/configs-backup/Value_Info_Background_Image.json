@@ -1,0 +1,185 @@
+{
+  "templateName": "Value_Info_Background_Image",
+  "description": "Tips & Tricks about related topics of Brand/Service/Company",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Headline",
+      "containerId": null,
+      "maxFontSize": 40,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 350,
+      "width": 690,
+      "height": 100,
+      "bounds": {
+        "x": 200,
+        "y": 350,
+        "width": 690,
+        "height": 100
+      },
+      "fontFamily": "Open Sans",
+      "maxWords": 4,
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_MAIN"
+    },
+    {
+      "id": "ValueInfo_About_Headline",
+      "containerId": null,
+      "maxFontSize": 75,
+      "alignment": "left",
+      "color": "#333333",
+      "colorMode": "black",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 200,
+      "y": 490,
+      "width": 670,
+      "height": 310,
+      "bounds": {
+        "x": 200,
+        "y": 490,
+        "width": 670,
+        "height": 310
+      },
+      "fontFamily": "Open Sans",
+      "maxWords": 12,
+      "contentTypeId": "ValueInfo_About_Headline"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 50,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "white",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 230,
+      "y": 880,
+      "width": 430,
+      "height": 80,
+      "bounds": {
+        "x": 230,
+        "y": 880,
+        "width": 430,
+        "height": 80
+      },
+      "fontFamily": "Open Sans",
+      "maxWords": 5,
+      "maxLines": 1,
+      "aiHint": "Subtle CTA, like \"Follow for daily insights\" ",
+      "contentTypeId": "CTA_PRIMARY"
+    }
+  ]
+}

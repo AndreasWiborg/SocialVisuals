@@ -1,0 +1,188 @@
+{
+  "templateName": "Classic_Canva_Template_5",
+  "description": "Classic Canva5",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Title",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 190,
+      "width": 450,
+      "height": 280,
+      "bounds": {
+        "x": 40,
+        "y": 190,
+        "width": 450,
+        "height": 280
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 6,
+      "minLines": 2,
+      "maxLines": 3,
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHint": "Classic Headline"
+    },
+    {
+      "id": "Body_Text",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 480,
+      "width": 450,
+      "height": 230,
+      "bounds": {
+        "x": 40,
+        "y": 480,
+        "width": 450,
+        "height": 230
+      },
+      "fontFamily": "Playfair Display",
+      "minLines": 2,
+      "maxLines": 3,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Normal body playing on headline",
+      "contentTypeId": "Body_Text"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "white",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 50,
+      "y": 720,
+      "width": 260,
+      "height": 70,
+      "bounds": {
+        "x": 50,
+        "y": 720,
+        "width": 260,
+        "height": 70
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY"
+    },
+    {
+      "id": "Contact",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-tint-20",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 90,
+      "y": 1010,
+      "width": 370,
+      "height": 50,
+      "bounds": {
+        "x": 90,
+        "y": 1010,
+        "width": 370,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info mail",
+      "contentTypeId": "COMPANY_NAME"
+    },
+    {
+      "id": "Contact_2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area (copy) (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 570,
+      "y": 1010,
+      "width": 370,
+      "height": 50,
+      "bounds": {
+        "x": 570,
+        "y": 1010,
+        "width": 370,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info or company name",
+      "contentTypeId": "Contact_2"
+    }
+  ]
+}

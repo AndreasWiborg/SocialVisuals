@@ -1,0 +1,257 @@
+{
+  "templateName": "Classic_Canva_Template_2",
+  "description": "Classic Canva2",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "brand-shade-40",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 40,
+      "y": 190,
+      "width": 550,
+      "height": 280,
+      "bounds": {
+        "x": 40,
+        "y": 190,
+        "width": 550,
+        "height": 280
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 3,
+      "minLines": 3,
+      "maxLines": 3,
+      "contentTypeId": "HEADLINE_MAIN",
+      "aiHint": "First word should be 20% darker than brand color, second word should be brand color. Third world should be 20% darker than brandcolor again. Relative font size on the words should be word one (70% of word 3). Word 2 (90% of word 3). ",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "token",
+      "maxChars": 24,
+      "minFontPx": 24
+    },
+    {
+      "id": "FEATURE_1",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 570,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 130,
+        "y": 570,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 6,
+      "maxLines": 1,
+      "aiHint": "Benefit or Step 1 of Product/Service",
+      "contentTypeId": "FEATURE_1",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 16
+    },
+    {
+      "id": "FEATURE_2",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 620,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 130,
+        "y": 620,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 100,
+        "baseField": "Step1"
+      },
+      "dependsOn": {
+        "field": "Step1",
+        "type": "complement"
+      },
+      "aiHint": "Step 2/Benefit 2",
+      "contentTypeId": "FEATURE_2",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 25,
+      "minFontPx": 16
+    },
+    {
+      "id": "FEATURE_3",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 670,
+      "width": 240,
+      "height": 50,
+      "bounds": {
+        "x": 130,
+        "y": 670,
+        "width": 240,
+        "height": 50
+      },
+      "fontFamily": "Montserrat",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 100,
+        "baseField": "Step1"
+      },
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Step 3/Benefit3",
+      "contentTypeId": "FEATURE_3",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 25,
+      "minFontPx": 16
+    },
+    {
+      "id": "COMPANY_NAME",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "white",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 130,
+      "y": 870,
+      "width": 510,
+      "height": 80,
+      "bounds": {
+        "x": 130,
+        "y": 870,
+        "width": 510,
+        "height": 80
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "aiHint": "Contact info or company name",
+      "contentTypeId": "COMPANY_NAME",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 24,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.799Z",
+    "changes": 5
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "templateName": "3xiPhone_H",
+  "description": "Template description",
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 150,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "custom",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 100,
+      "y": 150,
+      "width": 880,
+      "height": 160,
+      "bounds": {
+        "x": 100,
+        "y": 150,
+        "width": 880,
+        "height": 160
+      },
+      "fontFamily": "Bricolage Grotesque",
+      "fontWeight": "bold",
+      "maxLines": 1,
+      "format": "uppercase",
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "single_line",
+      "maxChars": 91,
+      "minFontPx": 24
+    },
+    {
+      "id": "COMPANY_NAME",
+      "containerId": null,
+      "maxFontSize": 50,
+      "alignment": "center",
+      "color": "#333333",
+      "colorMode": "custom",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {
+          "value_proposition": {
+            "color": "#FF6B6B",
+            "fontWeight": "800",
+            "fontSize": "1.2x"
+          },
+          "cta": {
+            "color": "#4ECDC4",
+            "fontWeight": "bold"
+          },
+          "brand": {
+            "color": "#1A535C",
+            "fontWeight": "700"
+          },
+          "discount": {
+            "color": "#FFE66D",
+            "fontWeight": "bold"
+          },
+          "feature": {
+            "color": "#95E1D3",
+            "fontWeight": "600"
+          },
+          "emotion": {
+            "color": "#F38181",
+            "fontStyle": "italic"
+          }
+        },
+        "defaultHighlight": "value_proposition"
+      },
+      "verticalAlignment": "middle",
+      "x": 280,
+      "y": 1190,
+      "width": 520,
+      "height": 70,
+      "bounds": {
+        "x": 280,
+        "y": 1190,
+        "width": 520,
+        "height": 70
+      },
+      "fontFamily": "Bricolage Grotesque",
+      "contentTypeId": "COMPANY_NAME",
+      "roleCandidates": [
+        "PRIMARY_PROMISE",
+        "BENEFIT.quality"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 162,
+      "minFontPx": 16
+    }
+  ],
+  "aiPrompt": {
+    "context": "I suggest using either pure black or pure white for color (and keep it consistent on all text boxes on this template)"
+  },
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.796Z",
+    "changes": 2
+  }
+}

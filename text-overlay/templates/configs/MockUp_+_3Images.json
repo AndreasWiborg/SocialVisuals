@@ -1,0 +1,164 @@
+{
+  "templateName": "MockUp_+_3Images",
+  "description": "Meh",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 10,
+      "y": 50,
+      "width": 470,
+      "height": 320,
+      "bounds": {
+        "x": 10,
+        "y": 50,
+        "width": 470,
+        "height": 320
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "single_line",
+      "maxChars": 48,
+      "minFontPx": 24
+    },
+    {
+      "id": "Body_Text",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 10,
+      "y": 710,
+      "width": 470,
+      "height": 310,
+      "bounds": {
+        "x": 10,
+        "y": 710,
+        "width": 470,
+        "height": 310
+      },
+      "fontFamily": "Playfair Display",
+      "minLines": 2,
+      "maxLines": 4,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Normal body playing on headline",
+      "contentTypeId": "Body_Text",
+      "roleCandidates": [
+        "Body.Promise",
+        "Body.Question",
+        "Body.Urgency",
+        "Body.Problem",
+        "Body.Solution",
+        "Body.Proof",
+        "Body.Benefit",
+        "Body.Statement",
+        "Body.Generic"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "multi_line_sentence",
+      "maxChars": 192,
+      "minFontPx": 16
+    },
+    {
+      "id": "CTA_PRIMARY",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 740,
+      "y": 970,
+      "width": 310,
+      "height": 80,
+      "bounds": {
+        "x": 740,
+        "y": 970,
+        "width": 310,
+        "height": 80
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Main action button",
+      "fitMode": "single_line",
+      "maxChars": 24,
+      "minFontPx": 18
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.809Z",
+    "changes": 3
+  }
+}

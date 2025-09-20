@@ -1,0 +1,313 @@
+{
+  "templateName": "Product_Remover_1",
+  "description": "Meh",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "HEADLINE_MAIN",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 190,
+      "width": 540,
+      "height": 110,
+      "bounds": {
+        "x": 490,
+        "y": 190,
+        "width": 540,
+        "height": 110
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_MAIN",
+      "roleCandidates": [
+        "H1.Promise",
+        "H1.Question",
+        "H1.Urgency",
+        "H1.Problem",
+        "H1.Solution",
+        "H1.Proof",
+        "H1.Benefit",
+        "H1.Statement",
+        "H1.Generic"
+      ],
+      "semanticPurpose": "Primary attention grabber",
+      "fitMode": "single_line",
+      "maxChars": 56,
+      "minFontPx": 24
+    },
+    {
+      "id": "BENEFIT_1",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 480,
+      "width": 530,
+      "height": 70,
+      "bounds": {
+        "x": 490,
+        "y": 480,
+        "width": 530,
+        "height": 70
+      },
+      "fontFamily": "Playfair Display",
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Benefit1",
+      "contentTypeId": "BENEFIT_1",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "First key benefit",
+      "fitMode": "single_line",
+      "maxChars": 55,
+      "minFontPx": 16
+    },
+    {
+      "id": "CTA_PRIMARY",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 80,
+      "y": 980,
+      "width": 260,
+      "height": 80,
+      "bounds": {
+        "x": 80,
+        "y": 980,
+        "width": 260,
+        "height": 80
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY",
+      "roleCandidates": [
+        "Button.Promise",
+        "Button.Question",
+        "Button.Urgency",
+        "Button.Problem",
+        "Button.Solution",
+        "Button.Proof",
+        "Button.Benefit",
+        "Button.Statement",
+        "Button.Hard",
+        "Button.Soft"
+      ],
+      "semanticPurpose": "Main action button",
+      "fitMode": "single_line",
+      "maxChars": 24,
+      "minFontPx": 18
+    },
+    {
+      "id": "HEADLINE_SUB",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 300,
+      "width": 540,
+      "height": 110,
+      "bounds": {
+        "x": 490,
+        "y": 300,
+        "width": 540,
+        "height": 110
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 75,
+        "baseField": "Title"
+      },
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Subheadline",
+      "contentTypeId": "HEADLINE_SUB",
+      "roleCandidates": [
+        "H2.Promise",
+        "H2.Question",
+        "H2.Urgency",
+        "H2.Problem",
+        "H2.Solution",
+        "H2.Proof",
+        "H2.Benefit",
+        "H2.Statement",
+        "H2.Generic"
+      ],
+      "semanticPurpose": "Support main headline with details",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 56,
+      "minFontPx": 24
+    },
+    {
+      "id": "Benefit1_copy_1754094580965",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 610,
+      "width": 530,
+      "height": 70,
+      "bounds": {
+        "x": 490,
+        "y": 610,
+        "width": 530,
+        "height": 70
+      },
+      "fontFamily": "Playfair Display",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 100,
+        "baseField": "Benefit1"
+      },
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Benefit2",
+      "contentTypeId": "Benefit1_copy_1754094580965",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "Provide relevant information",
+      "fitMode": "single_line",
+      "maxChars": 55,
+      "minFontPx": 16
+    },
+    {
+      "id": "BENEFIT_3",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area (copy) (copy)",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 490,
+      "y": 740,
+      "width": 530,
+      "height": 70,
+      "bounds": {
+        "x": 490,
+        "y": 740,
+        "width": 530,
+        "height": 70
+      },
+      "fontFamily": "Playfair Display",
+      "maxLines": 1,
+      "relativeFontSize": {
+        "percentage": 100,
+        "baseField": "Benefit1"
+      },
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Benefit3",
+      "contentTypeId": "BENEFIT_3",
+      "roleCandidates": [
+        "Bullets.Benefit",
+        "Bullets.Feature",
+        "Bullets.Offer",
+        "Bullets.Process"
+      ],
+      "semanticPurpose": "Third key benefit",
+      "evidence": "required",
+      "fitMode": "single_line",
+      "maxChars": 55,
+      "minFontPx": 16
+    }
+  ],
+  "_migrated": {
+    "version": "2.0",
+    "date": "2025-08-28T14:25:36.810Z",
+    "changes": 6
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "test-template-2",
+  "name": "External Images Template",
+  "version": "1.0.0",
+  "dimensions": {
+    "width": 1200,
+    "height": 800
+  },
+  "imageAreas": [
+    {
+      "id": "hero",
+      "placeholder": "hero",
+      "constraints": {
+        "type": "hero",
+        "required": true
+      }
+    },
+    {
+      "id": "thumbnail",
+      "placeholder": "thumbnail",
+      "constraints": {
+        "type": "thumbnail",
+        "required": false
+      }
+    }
+  ],
+  "textAreas": [
+    {
+      "id": "title",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "colors": {
+    "dynamic": true
+  }
+}

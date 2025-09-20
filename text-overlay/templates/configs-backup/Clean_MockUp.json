@@ -1,0 +1,114 @@
+{
+  "templateName": "Clean_MockUp",
+  "description": "Clean Mock Up",
+  "dimensions": {
+    "width": 1080,
+    "height": 1080
+  },
+  "containers": [],
+  "safeTextAreas": [
+    {
+      "id": "Title",
+      "containerId": null,
+      "maxFontSize": 120,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 550,
+      "y": 330,
+      "width": 440,
+      "height": 120,
+      "bounds": {
+        "x": 550,
+        "y": 330,
+        "width": 440,
+        "height": 120
+      },
+      "fontFamily": "Playfair Display",
+      "fontWeight": "bold",
+      "maxWords": 5,
+      "maxLines": 1,
+      "contentTypeId": "HEADLINE_MAIN"
+    },
+    {
+      "id": "Body_Text",
+      "containerId": null,
+      "maxFontSize": 60,
+      "alignment": "left",
+      "color": "#000000",
+      "colorMode": "adaptive-on-brand",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 550,
+      "y": 470,
+      "width": 490,
+      "height": 200,
+      "bounds": {
+        "x": 550,
+        "y": 470,
+        "width": 490,
+        "height": 200
+      },
+      "fontFamily": "Playfair Display",
+      "minLines": 2,
+      "maxLines": 3,
+      "dependsOn": {
+        "field": "Title",
+        "type": "complement"
+      },
+      "aiHint": "Normal body playing on headline",
+      "contentTypeId": "Body_Text"
+    },
+    {
+      "id": "CTA",
+      "containerId": null,
+      "maxFontSize": 45,
+      "alignment": "center",
+      "color": "#000000",
+      "colorMode": "brand-dark",
+      "description": "Copy of text area",
+      "enableRichText": true,
+      "autoFit": true,
+      "highlightRules": {
+        "enabled": false,
+        "autoDetect": false,
+        "types": {}
+      },
+      "verticalAlignment": "middle",
+      "x": 590,
+      "y": 810,
+      "width": 460,
+      "height": 80,
+      "bounds": {
+        "x": 590,
+        "y": 810,
+        "width": 460,
+        "height": 80
+      },
+      "fontFamily": "Montserrat",
+      "maxWords": 3,
+      "maxLines": 1,
+      "dependsOn": {
+        "field": "Step2",
+        "type": "matches"
+      },
+      "contentTypeId": "CTA_PRIMARY"
+    }
+  ]
+}
